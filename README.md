@@ -22,10 +22,10 @@ submission-quality Capstone report.
 ## How to run
 
 ```bash
-pip install -r requirements.txt
-python generate_data.py            # (re)create data/students.csv
-python test_precision_checks.py    # run the 37-check verification suite
-jupyter notebook                   # open the two notebooks
+pip3 install -r requirements.txt
+python3 generate_data.py            # (re)create data/students.csv
+python3 test_precision_checks.py    # run the 37-check verification suite
+jupyter notebook                    # open the two notebooks
 ```
 
 Both notebooks survive **Restart Kernel & Run All** with zero error cells.
